@@ -1,0 +1,246 @@
+* {
+    --base-orange: #ff8811ff;
+    --chocolate: #E07000;
+    --base-white: #fff8f0ff;
+    --pearl-aqua: #9dd9d2ff;
+    --space-indigo: #392f5aff;
+    font-family: "Open Sans", sans-serif;
+} 
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background-image: url('./assets/bg2.png');
+    background-size: 25%;
+    margin: 60px;
+}
+
+/* header */
+
+.flow_front_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header {
+    background-color: var(--base-orange);
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 20px;
+    padding: 40px;
+    font-family: "Lexend", sans-serif;
+    font-size: 40px;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.wink {
+    margin-left: 300px;
+    color: rgb(255, 255, 255, 0);
+    transition: 0.1s ease;
+}
+
+.wink:hover {
+    color: rgb(255, 255, 255, 0.5);
+} 
+
+header:hover {
+    box-shadow: 0px 0px 10px var(--base-orange);
+
+    
+}
+
+
+/* main section windows */
+
+.back-tab {
+    background-color: var(--chocolate);
+    border-radius: 20px;
+    transition: 0.2s ease;
+}
+
+.back-tab:hover {
+    box-shadow: 0px 0px 5px var(--chocolate);
+}
+
+.tab {
+    background-color: var(--base-orange);
+    width: 250px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 20px;
+}
+
+.window-title {
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 5px 20px;
+    margin: 0px;
+}
+
+.white {
+    background-color: white;
+    padding: 30px;
+    margin: 0px;
+    border-radius: 0px 20px 20px 20px;
+    border-right: solid 1px var(--base-orange);
+    border-bottom: solid 1px var(--base-orange);
+    border-left: solid 1px var(--base-orange);
+} 
+
+/* projects */
+
+.projects {
+    padding: 10px 30px;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+.projects p {
+    font-size: 15px;
+}
+
+h4 {
+    font-family: "Lexend", sans-serif;
+}
+
+/* inventory */
+
+.flow_front {
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#apple {
+    background-image: url('./assets/apple.png');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#fish {
+    background-image: url('./assets/fish.png');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#flower {
+    background-image: url('./assets/flower.png');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#stamp {
+    background-image: url('./assets/stamp.png');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+
+#drink {
+    background-image: url('./assets/VuSportsDrinkLabel.jpg');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#knife {
+    background-image: url('./assets/knife.png');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#coffee {
+    background-image: url('./assets/4.png');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#plush {
+    background-image: url('./assets/plush.png');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+/* transitions */
+
+#apple:hover {
+    translate: 0px -10px;
+    box-shadow: 0px 0px 5px var(--base-orange);
+}
+
+#fish:hover {
+    translate: 0px -10px;
+    box-shadow: 0px 0px 5px var(--base-orange);
+}
+
+#flower:hover {
+    translate: 0px -10px;
+    box-shadow: 0px 0px 5px var(--base-orange);
+}
+
+#stamp:hover {
+    translate: 0px -10px;
+    box-shadow: 0px 0px 5px var(--base-orange);
+} 
+
+#drink:hover {
+    translate: 0px -10px; 
+    box-shadow: 0px 0px 5px var(--base-orange);
+} 
+
+#knife:hover {
+    translate: 0px -10px; 
+    box-shadow: 0px 0px 5px var(--base-orange);
+} 
+
+#coffee:hover {
+    translate: 0px -10px; 
+    box-shadow: 0px 0px 5px var(--base-orange);
+} 
+
+#plush:hover {
+    translate: 0px -10px;   
+    box-shadow: 0px 0px 5px var(--base-orange);
+}
+
+.h6 {
+    display: none;
+}
+
+
+
